@@ -1,0 +1,136 @@
+div#pages {
+  margin-top: 45px;
+  padding: 15px;
+  background-color: $tab-bacgr-color;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: $menu-left-color;
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+}
+
+.top-bar {
+  position: fixed;
+  right: 0;
+  background-color: $white-color;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid $menu-left-color;
+  width: calc(100% - 200px);
+  z-index: 1;
+}
+
+.content-disapear-mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-wrapper {
+  margin-left: 200px;
+  width: calc(100% - 200px);
+}
+
+.content {
+  width: 100%;
+}
+
+.general {
+  .import-img {
+    width: 70%;
+    margin: 50px auto;
+  }
+}
+
+body {
+  display: flex;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.box-input {
+  display: flex;
+  justify-content: center;
+  padding: 34px;
+  border-top: 1px solid $input-color;
+  border-bottom: 1px solid $input-color;
+}
+
+.links {
+  .h2 {
+    border-bottom: 1px solid $input-color;
+  }
+
+  button {
+    margin: 25px auto;
+  }
+}
+
+.section-shadow {
+  background-color: $white-color;
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+////////////////////////////////////////////////
+.personal {
+  button {
+    margin: 25px auto;
+  }
+
+  .form {
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid $input-color;
+    border-bottom: 1px solid $input-color;
+
+    .form-section {
+      border-bottom: 1px solid $input-color;
+      min-width: 300px;
+      width: 100%;
+      padding: 40px 0;
+    }
+
+    div.input {
+      height: 40px;
+      width: 250px;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    .vessel {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: auto;
+      min-width: 290px;
+      max-width: 400px;
+    }
+  }
+}
+
+.detail {
+  .scroll-wrapper table {
+    width: auto;
+    min-width: auto;
+  }
+
+  .table {
+    table-layout: fixed;
+
+    td {
+      width: 1%;
+      white-space: nowrap;
+    }
+  }
+}
